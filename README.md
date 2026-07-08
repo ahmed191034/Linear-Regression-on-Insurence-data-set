@@ -1,2 +1,20 @@
-# Linear-Regression-on-Insurence-data-set
-This case study focuses on developing a predictive model using linear regression to estimate individual medical charges based on personal attributes. The dataset includes features like age, sex, BMI, number of children, smoking status, geographical region, and individual medical costs billed by health insurance. The tasks involve data preprocessing, exploratory data analysis (EDA), model development, and interpretation, aiming to understand how different features impact medical charges. This practical exercise is designed to enhance understanding of linear regression within a real-world healthcare cost prediction context.
+# Linear Regression — Medical Insurance Charges
+
+A case study using linear regression to estimate individual medical insurance charges from personal attributes: age, sex, BMI, number of children, smoking status, and region.
+
+**Covers:** data preprocessing, exploratory data analysis, model development, and interpreting how each feature (particularly smoking status, which typically dominates in this dataset) impacts predicted charges.
+
+## Files
+
+- `insurence.csv` — dataset (age, sex, bmi, children, smoker, region, charges)
+- `Linear Regression Class Activity.ipynb`
+- `case study.pdf` — case study brief
+
+## Tech Stack
+
+Python, pandas, scikit-learn
+
+## Notes
+
+- This is a foundational regression exercise — one of several classic algorithm-practice notebooks in this profile.
+- The dataset filename has a typo (`insurence.csv`); worth renaming to `insurance.csv` in a future cleanup pass.
